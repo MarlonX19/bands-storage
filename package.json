@@ -1,0 +1,22 @@
+{
+  "name": "bands",
+  "version": "1.0.0",
+  "description": "bands project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "date-fns": "^2.23.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.21",
+    "morgan-body": "^2.6.6",
+    "nodemon": "^2.0.12",
+    "sqlite3": "^5.0.2"
+  }
+}

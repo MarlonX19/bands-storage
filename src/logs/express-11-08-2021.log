@@ -1,0 +1,109 @@
+
+Request: GET /home at Wed Aug 11 2021 16:03:29 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.1
+Response Body:
+{
+	"value": "store"
+}
+Response: 200 1.980 ms 
+
+Request: GET /home at Wed Aug 11 2021 16:03:36 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.1
+Response Body:
+{
+	"value": "store"
+}
+Response: 200 0.361 ms 
+
+Request: GET /home at Wed Aug 11 2021 16:03:37 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.1
+Response Body:
+{
+	"value": "store"
+}
+Response: 200 0.259 ms 
+
+Request: DELETE /home at Wed Aug 11 2021 16:04:44 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.1
+Response Body:
+{
+	"value": "deleted"
+}
+Response: 200 1.931 ms 
+
+Request: GET /home at Wed Aug 11 2021 16:07:53 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.1
+Response Body:
+{
+	"value": "store"
+}
+Response: 200 1165.034 ms 
+
+Request: GET /home at Wed Aug 11 2021 16:16:43 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.1
+Response Body:
+{
+	"value": [
+		{
+			"createdAt": "2021-07-05T20:40:28.281Z",
+			"name": "Metallica",
+			"genre": "Heavy metal",
+			"photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Metallica_Live_at_The_O2%2C_London%2C_England%2C_22_October_2017.jpg/1280px-Metallica_Live_at_The_O2%2C_London%2C_England%2C_22_October_2017.jpg",
+			"active": true,
+			"lifetime": 27,
+			"id": "1"
+		},
+		{
+			"createdAt": "2021-07-05T05:55:56.744Z",
+			"name": "Megadeth",
+			"genre": "thrash metal",
+			"photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Megadeth_Live_at_The_O2_2018-06-16.jpg/1280px-Megadeth_Live_at_The_O2_2018-06-16.jpg",
+			"active": false,
+			"lifetime": 22,
+			"id": "2"
+		},
+		{
+			"createdAt": "2021-07-05T16:35:21.998Z",
+			"name": "Green Day",
+			"genre": "Punk Rock",
+			"photo": "https://upload.wikimedia.org/wikipedia/commons/0/00/Green_Day_2017_Germany.png",
+			"active": true,
+			"lifetime": 12,
+			"id": "3"
+		},
+		{
+			"createdAt": "2021-07-05T13:37:40.046Z",
+			"
+...
+Response: 200 790.732 ms 
+
+Request: GET /home at Wed Aug 11 2021 16:17:16 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.1
+Response Body:
+{
+	"value": [
+		{
+			"createdAt": "2021-07-05T20:40:28.281Z",
+			"name": "Metallica",
+			"genre": "Heavy metal",
+			"photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Metallica_Live_at_The_O2%2C_London%2C_England%2C_22_October_2017.jpg/1280px-Metallica_Live_at_The_O2%2C_London%2C_England%2C_22_October_2017.jpg",
+			"active": true,
+			"lifetime": 27,
+			"id": "1"
+		},
+		{
+			"createdAt": "2021-07-05T05:55:56.744Z",
+			"name": "Megadeth",
+			"genre": "thrash metal",
+			"photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Megadeth_Live_at_The_O2_2018-06-16.jpg/1280px-Megadeth_Live_at_The_O2_2018-06-16.jpg",
+			"active": false,
+			"lifetime": 22,
+			"id": "2"
+		},
+		{
+			"createdAt": "2021-07-05T16:35:21.998Z",
+			"name": "Green Day",
+			"genre": "Punk Rock",
+			"photo": "https://upload.wikimedia.org/wikipedia/commons/0/00/Green_Day_2017_Germany.png",
+			"active": true,
+			"lifetime": 12,
+			"id": "3"
+		},
+		{
+			"createdAt": "2021-07-05T13:37:40.046Z",
+			"
+...
+Response: 200 673.131 ms 
