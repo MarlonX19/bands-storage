@@ -1,4 +1,4 @@
-const bandsController = require('./bandsController')
+const bandsController = require('./bandsController');
 
 module.exports = {
     bandsController
