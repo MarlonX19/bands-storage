@@ -1,0 +1,35 @@
+
+Request: GET /home at Wed Aug 25 2021 15:39:29 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.2
+Response Body:
+{
+	"value": [
+		{
+			"id": 1,
+			"name": "Metallica",
+			"photo": "caminhoparafoto",
+			"genre": "metal",
+			"active": "1",
+			"lifetime": "12",
+			"created_at": "2021-08-18 19:30:48"
+		},
+		{
+			"id": 2,
+			"name": "Red hot chilli peppers",
+			"photo": "caminhoparafoto",
+			"genre": "rock",
+			"active": "1",
+			"lifetime": "10",
+			"created_at": "2021-08-18 19:35:01"
+		},
+		{
+			"id": 3,
+			"name": "Red hot chilli peppers",
+			"photo": "caminhoparafoto",
+			"genre": "rock",
+			"active": "1",
+			"lifetime": "10",
+			"created_at": "2021-08-18 19:43:50"
+		}
+	]
+}
+Response: 200 26.743 ms 
