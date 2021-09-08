@@ -1,7 +1,6 @@
 const dbConnection = require('../../database/connection');
 
 async function Store(name) {
-  console.log(name, '===testenome');
   const response = await dbConnection('artists').insert({
     name
   })
@@ -9,11 +8,22 @@ async function Store(name) {
 }
 
 async function Show() {
-  const response = await dbConnection('artists').select('*');
-  console.log(response.data, '====teste');
+  return await dbConnection('artists').select('*');
+}
+
+async function GetById(id) {
+  return await dbConnection('artists').select('*').where({ id: id });
+}
+
+async function Delete(id) {
+  const response = await dbConnection('artists').where({ id: id }).del();
+  console.log(response, '====Teste delete')
+  return response;
 }
 
 module.exports = artistsRepository = {
   Store,
-  Show
+  Show,
+  GetById,
+  Delete
 }

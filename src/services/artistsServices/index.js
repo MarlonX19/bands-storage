@@ -1,15 +1,24 @@
 const { artistsRepository } = require('../../repositories')
 
 async function Store(name) {
-  const response = await artistsRepository.Store(name);
-  return response;
+  return await artistsRepository.Store(name);
 }
 
 async function Show() {
   return await artistsRepository.Show();
 }
 
+async function GetById(id) {
+  return await artistsRepository.GetById(id);
+}
+
+async function Delete(id) {
+  return await artistsRepository.Delete(id);
+}
+
 module.exports = artistsServices = {
   Store,
-  Show
+  Show,
+  GetById,
+  Delete
 }

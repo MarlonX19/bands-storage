@@ -10,5 +10,7 @@ routes.delete('/home', bandsController.Delete)
 
 routes.post('/artists', artistController.Store)
 routes.get('/artists', artistController.Get)
+routes.get('/artists/:id', artistController.GetById)
+routes.delete('/artists/:id', artistController.Delete)
 
 module.exports = routes;
