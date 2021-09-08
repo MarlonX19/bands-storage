@@ -3,9 +3,7 @@ const { artistsServices } = require('../../services')
 async function Store(req, res, next) {
   const { name: novoNome } = req.body
   try {
-    const response = await artistsServices.Store(novoNome)
-    console.log(response.data);
-    res.send(response.data);
+    res.send(await artistsServices.Store(novoNome));
   } catch (error) {
     next(error);
   }
@@ -13,9 +11,27 @@ async function Store(req, res, next) {
 
 async function Get(req, res, next) {
   try {
-    const response = await artistsServices.Show();
-    console.log(response.data)
-    res.send(response.data);
+    res.send(await artistsServices.Show());
+  } catch (error) {
+    next(error);
+  }
+}
+
+async function GetById(req, res, next) {
+  const { id: idPesquisado } = req.params
+  try {
+    res.send(await artistsServices.GetById(idPesquisado));
+  } catch (error) {
+    next(error);
+  }
+}
+
+async function Delete(req, res, next) {
+  const { id: idDelete } = req.params
+  try {
+    const response = await artistsServices.Delete(idDelete);
+    console.log(response);
+    res.send({ response });
   } catch (error) {
     next(error);
   }
@@ -23,5 +39,7 @@ async function Get(req, res, next) {
 
 module.exports = artistController = {
   Store,
-  Get
+  Get,
+  GetById,
+  Delete
 }

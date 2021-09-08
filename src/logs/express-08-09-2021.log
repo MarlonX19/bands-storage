@@ -1,0 +1,445 @@
+
+Request: POST /artists at Wed Sep 08 2021 15:49:40 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Carla Perez a Cinderela Baiana"
+}
+Response: 200 42.771 ms 
+
+Request: POST /artists at Wed Sep 08 2021 15:50:41 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Carla Perez a Cinderela Baiana"
+}
+Response: 200 24.683 ms 
+
+Request: POST /artists at Wed Sep 08 2021 15:51:53 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Carla Perez a Cinderela Baiana"
+}
+Response: 200 25.990 ms 
+
+Request: POST /artists at Wed Sep 08 2021 15:53:13 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Carla Perez a Cinderela Baiana a aventura continua"
+}
+Response: 200 18.855 ms 
+
+Request: POST /artists at Wed Sep 08 2021 15:54:04 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Carla Perez a Cinderela Baiana a maluquinha da Bahia"
+}
+Response: 200 31.938 ms 
+
+Request: GET /artists at Wed Sep 08 2021 15:55:06 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Carla Perez a Cinderela Baiana a maluquinha da Bahia"
+}
+Response Body:
+{
+	"error": {}
+}
+Response: 500 4.225 ms 
+
+Request: POST /artists at Wed Sep 08 2021 15:56:51 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+[
+	8
+]
+Response: 200 29.899 ms 
+
+Request: GET /artists at Wed Sep 08 2021 15:57:14 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+{
+	"error": {}
+}
+Response: 500 2.988 ms 
+
+Request: GET /artists at Wed Sep 08 2021 15:57:44 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response: 200 16.435 ms 
+
+Request: GET /artists at Wed Sep 08 2021 15:57:47 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response: 200 4.225 ms 
+
+Request: GET /artists at Wed Sep 08 2021 15:59:07 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response: 200 29.139 ms 
+
+Request: GET /artists at Wed Sep 08 2021 16:00:17 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response: 200 17.629 ms 
+
+Request: GET /artists at Wed Sep 08 2021 16:01:18 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response: 200 16.908 ms 
+
+Request: GET /artists at Wed Sep 08 2021 16:01:48 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+[
+	{
+		"id": 1,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-08-25 19:44:52"
+	},
+	{
+		"id": 2,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-08-25 19:51:03"
+	},
+	{
+		"id": 3,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-09-08 18:49:40"
+	},
+	{
+		"id": 4,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-09-08 18:50:41"
+	},
+	{
+		"id": 5,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-09-08 18:51:53"
+	},
+	{
+		"id": 6,
+		"name": "Carla Perez a Cind
+...
+Response: 200 39.998 ms 
+
+Request: GET /artists at Wed Sep 08 2021 16:02:38 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+[
+	{
+		"id": 1,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-08-25 19:44:52"
+	},
+	{
+		"id": 2,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-08-25 19:51:03"
+	},
+	{
+		"id": 3,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-09-08 18:49:40"
+	},
+	{
+		"id": 4,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-09-08 18:50:41"
+	},
+	{
+		"id": 5,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-09-08 18:51:53"
+	},
+	{
+		"id": 6,
+		"name": "Carla Perez a Cind
+...
+Response: 200 38.165 ms 
+
+Request: GET /artists at Wed Sep 08 2021 16:03:24 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+[
+	{
+		"id": 1,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-08-25 19:44:52"
+	},
+	{
+		"id": 2,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-08-25 19:51:03"
+	},
+	{
+		"id": 3,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-09-08 18:49:40"
+	},
+	{
+		"id": 4,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-09-08 18:50:41"
+	},
+	{
+		"id": 5,
+		"name": "Carla Perez a Cinderela Baiana",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-09-08 18:51:53"
+	},
+	{
+		"id": 6,
+		"name": "Carla Perez a Cind
+...
+Response: 200 28.618 ms 
+
+Request: GET /artists/8 at Wed Sep 08 2021 16:19:42 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+[
+	{
+		"id": 8,
+		"name": "Sheila Carvalho",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-09-08 18:56:51"
+	}
+]
+Response: 200 17.466 ms 
+
+Request: GET /artists/7 at Wed Sep 08 2021 16:19:48 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+[
+	{
+		"id": 7,
+		"name": "Carla Perez a Cinderela Baiana a maluquinha da Bahia",
+		"photo": null,
+		"genre": null,
+		"active": null,
+		"birthday": null,
+		"band_id": null,
+		"created_at": "2021-09-08 18:54:04"
+	}
+]
+Response: 200 2.089 ms 
+
+Request: DELETE /artists/8 at Wed Sep 08 2021 16:26:22 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+{
+	"error": {
+		"code": "ERR_HTTP_INVALID_STATUS_CODE"
+	}
+}
+Response: 500 26.869 ms 
+
+Request: DELETE /artists/8 at Wed Sep 08 2021 16:27:31 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+{
+	"error": {
+		"code": "ERR_HTTP_INVALID_STATUS_CODE"
+	}
+}
+Response: 500 16.556 ms 
+
+Request: DELETE /artists/8 at Wed Sep 08 2021 16:28:36 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+{
+	"error": {
+		"code": "ERR_HTTP_INVALID_STATUS_CODE"
+	}
+}
+Response: 500 16.309 ms 
+
+Request: DELETE /artists/7 at Wed Sep 08 2021 16:28:47 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+{
+	"error": {
+		"code": "ERR_HTTP_INVALID_STATUS_CODE"
+	}
+}
+Response: 500 11.262 ms 
+
+Request: DELETE /artists/6 at Wed Sep 08 2021 16:29:51 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+{
+	"error": {
+		"code": "ERR_HTTP_INVALID_STATUS_CODE"
+	}
+}
+Response: 500 27.570 ms 
+
+Request: DELETE /artists/5 at Wed Sep 08 2021 16:30:29 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+{
+	"error": {
+		"code": "ERR_HTTP_INVALID_STATUS_CODE"
+	}
+}
+Response: 500 26.337 ms 
+
+Request: DELETE /artists/4 at Wed Sep 08 2021 16:32:06 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+{
+	"response": 1
+}
+Response: 200 25.051 ms 
+
+Request: DELETE /artists/3 at Wed Sep 08 2021 16:32:27 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+{
+	"error": {
+		"code": "ERR_HTTP_INVALID_STATUS_CODE"
+	}
+}
+Response: 500 26.981 ms 
+
+Request: DELETE /artists/2 at Wed Sep 08 2021 16:33:02 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.28.4
+Request Body:
+{
+	"name": "Sheila Carvalho"
+}
+Response Body:
+{
+	"response": 1
+}
+Response: 200 27.193 ms 
