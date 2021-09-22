@@ -1,12 +1,12 @@
 const { bandsServices } = require('../../services')
 
 async function Store(req, res, next) {
+    const { filename } = req.file;
     const {
         name,
         genre,
         active,
         lifetime,
-        photo
     } = req.body;
 
     try {
@@ -15,13 +15,13 @@ async function Store(req, res, next) {
             genre,
             active,
             lifetime,
-            photo
+            filename
         )
 
         res.json({ value: response })
     }
     catch (error) {
-        console.log('===error', error.code)
+        console.log('===error', error);
         next(error);
     }
 
